@@ -45,5 +45,10 @@
     background-color: green;
     color: white;
     font-size: 1em;
-    margin-top: 3vh;
+}
+
+.ReactLogo {
+    height: 20vmin;
+    object-fit: cover;
+    margin-block: 4vh;
 }

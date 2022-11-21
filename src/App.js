@@ -1,6 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import ButtonComponent from './components/ButtonComponent';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
+import reactLogo from "./Assets/react-logo.png";
 
 function App() {
   return (
@@ -18,8 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <ImageComponent image={reactLogo} alt="logo" classname="ReactLogo"  />
         <ButtonComponent label="Submit" />
-
       </header>
     </div>
   );
